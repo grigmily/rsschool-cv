@@ -1,4 +1,6 @@
+
 # Grigory Milyukov CV  ![Grigory foto](/1240.jpg "foto")
+
 ## Contacts
     chat: Discord 
     nickname: Grigory (@grigmily)
