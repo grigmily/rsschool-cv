@@ -1,4 +1,4 @@
-# Grigory Milyukov CV  ![Grigory foto](https://drive.google.com/file/d/1JTHV97scBIC543W7v-g34eX_aJjzD1J-/view?usp=sharing)
+# Grigory Milyukov CV  ![Grigory foto](/1240.jpg "foto")
 ## Contacts
     chat: Discord 
     nickname: Grigory (@grigmily)
@@ -18,21 +18,17 @@
         + using docs
         + trying 2 test projects
 
-## Examples
+## Example
     '''
-class Calc {
-    constructor(immut=0){
-        this.res = immut
-    }
-    add(x){
-        return new Calc(this.res + x)
-    }
-    sub(x){
-        return new Calc(this.res - x)
-    }
-    result(){
-        return this.res
-    }
+function likes(names) {
+  // TODO
+  switch (names.length) { 
+      case 0: return(`no one likes this`);
+      case 1: return(`${names[0]} likes this`);
+      case 2: return(`${names[0]} and ${names[1]} like this`);
+      case 3: return(`${names[0]}, ${names[1]} and ${names[2]} like this`);
+      default: return(`${names[0]}, ${names[1]} and ${names.length-2} others like this`);
+      }
 }
 '''
 ## Practice
