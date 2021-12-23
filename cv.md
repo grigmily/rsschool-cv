@@ -1,12 +1,20 @@
 
-# Grigory Milyukov CV  ![Grigory foto](/1240.jpg "foto")
+# Grigory Milyukov CV  
+![Grigory foto](/1240.jpg "foto")
 
 ## Contacts
-    chat: Discord 
-    nickname: Grigory (@grigmily)
+
+    **chat:** Discord 
+    **nickname:** Grigory (@grigmily)
+
 ## About
-    Goal is a certain speciality in IT. Priority is logically structurred activity. Minimalism as a strength. Work experience is some testing tasks in a few companies and a lot of experiece of contributing on construction and production projects.  
+
+    Goal is a certain speciality in IT. Priority is logically structurred activity.
+    Minimalism as a strength.
+    Work experience is some testing tasks in a few companies and a lot of experiece of contributing on construction and production projects.  
+
 ## Skills
+
     * MySQL
         + base video course
         + training to enter a marketplace company
@@ -21,6 +29,7 @@
         + trying 2 test projects
 
 ## Example
+
     '''
 function likes(names) {
   // TODO
@@ -33,16 +42,22 @@ function likes(names) {
       }
 }
 '''
+
 ## Practice
+
     * [livemaster.ru] (https://www.livemaster.ru/ "Website «Fair of Masters»")
     * [SAP](https://sapui5.hana.ondemand.com/ "Lead of ERP-systems market in Russia")
     * [ptmk](https://www.ptmk.ru/ "Business automation")
     * [amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»")
+
 ## Education
+
     * [beONmax](https://beonmax.com/ "beONmax") video courses;
     * [Yandex.Practicum](https://practicum.yandex.ru/profile/data-scientist/ "Yandex.Practicum") data analysys school - data science course;
     * [QAtester](https://qatester.ru/ "QAtester school") course;
     * [RUST docs](https://www.rust-lang.org/learn "RUST docs") using.
+
 ## English
+
     * DuoLingo  >600 days
     * english docs
