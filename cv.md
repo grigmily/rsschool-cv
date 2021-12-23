@@ -1,4 +1,4 @@
-# Grigory Milyukov CV  ![Grigory foto](https://drive.google.com/file/d/1JTHV97scBIC543W7v-g34eX_aJjzD1J-/view?usp=sharing)
+# Grigory Milyukov CV  ![Grigory foto](https://drive.google.com/file/d/1JTHV97scBIC543W7v-g34eX_aJjzD1J-/preview)
 ## Contacts
     chat: Discord 
     nickname: Grigory (@grigmily)
