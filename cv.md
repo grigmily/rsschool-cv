@@ -8,13 +8,17 @@
 =====================
 ## Contacts
 
-__chat:__ Discord 
+__chat:__ Discord
+
 __nickname:__ Grigory (@grigmily)
 
 =====================
 ## About
 
-Goal is a certain speciality in IT. Priority is logically structurred activity. Minimalism as a strength. Work experience is some testing tasks in a few companies and a lot of experiece of contributing on construction and production projects.  
+Goal is a certain speciality in IT. 
+Priority is logically structurred activity.
+Minimalism as a strength. 
+Work experience in some testing tasks for a few companies and a lot of experiece of contributing to construction and production projects.  
 
 =====================
 ## Skills
@@ -52,7 +56,7 @@ function likes(names) {
 =====================
 ## Practice
 
-* [livemaster.ru] (https://www.livemaster.ru/ "Website «Fair of Masters»")
+* [livemaster.ru](https://www.livemaster.ru/ "Website «Fair of Masters»")
 * [SAP](https://sapui5.hana.ondemand.com/ "Lead of ERP-systems market in Russia")
 * [ptmk](https://www.ptmk.ru/ "Business automation")
 * [amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»")
