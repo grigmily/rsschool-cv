@@ -72,7 +72,7 @@ function likes(names) {
 
 ### Projects
 
-* [CPS project](https://grigmily.github.io/ "Training for adaptive website")
+* [CSP project](https://grigmily.github.io/ "Training for adaptive website") 
 
 =====================
 ## Education
