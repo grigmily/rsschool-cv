@@ -68,14 +68,14 @@ function likes(names) {
 =====================
 ## Practice
 
-* [livemaster.ru](https://www.livemaster.ru/ "Website «Fair of Masters»")
-* [SAP](https://sapui5.hana.ondemand.com/ "Lead of ERP-systems market in Russia")
-* [ptmk](https://www.ptmk.ru/ "Business automation")
-* [amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»")
+* [livemaster.ru](https://www.livemaster.ru/ "Website «Fair of Masters»") - SQL and databases staging course for database administrator;
+* [SAP](https://sapui5.hana.ondemand.com/ "Lead of ERP-systems market in Russia") - solving entrants tasks in python, JavaScript, oData;
+* [ptmk](https://www.ptmk.ru/ "Business automation") - solving entrants tasks in python+mongodb;
+* [amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»") - solving entrants tasks for industrial PLC.
 
-### Projects
+#### Projects
 
-* [CSP project](https://grigmily.github.io/ "Training for adaptive website") 
+* [CSP project](https://grigmily.github.io/ "Training for adaptive website").
 
 =====================
 ## Education
@@ -88,5 +88,5 @@ function likes(names) {
 =====================
 ## English
 
-* DuoLingo  >600 days
-* english docs
+* DuoLingo  >600 days;
+* english docs.
