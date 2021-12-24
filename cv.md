@@ -7,9 +7,9 @@
 =====================
 ## Contacts
 
-__chat:__ Discord
-
-__nickname:__ Grigory (@grigmily)
+__service__|__server__| __nickname__  
+----------:|:--------:|-------------| 
+Discord|rs-school|Grigory (@grigmily)
 
 =====================
 ## About
