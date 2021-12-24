@@ -48,7 +48,7 @@ Implement the function which takes an array containing the names of people that 
 ["Max", "John", "Mark"]           -->  "Max, John and Mark like this"
 ["Alex", "Jacob", "Mark", "Max"]  -->  "Alex, Jacob and 2 others like this"
 ```
-Task solving code:
+Implementing function:
 ```
 function likes(names) {
   // TODO
