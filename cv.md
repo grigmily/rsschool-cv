@@ -39,7 +39,6 @@ Work experience in some testing tasks for a few companies and a lot of experiece
 =====================
 ## Example
 
-
 ```
 function likes(names) {
   // TODO
@@ -61,9 +60,12 @@ function likes(names) {
 * [ptmk](https://www.ptmk.ru/ "Business automation")
 * [amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»")
 
+### Projects
+
+* [CPS project](https://grigmily.github.io/ "Training for adaptive website")
+
 =====================
 ## Education
-
 
 * [beONmax](https://beonmax.com/ "beONmax") video courses;
 * [Yandex.Practicum](https://practicum.yandex.ru/profile/data-scientist/ "Yandex.Practicum") data analysys school - data science course;
@@ -72,7 +74,6 @@ function likes(names) {
 
 =====================
 ## English
-
 
 * DuoLingo  >600 days
 * english docs
