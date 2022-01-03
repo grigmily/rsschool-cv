@@ -1,2 +1,3 @@
 # rsschool-cv
-сurriculum vitae
+https://grigmily.github.io/rsschool-cv/cv
+https://grigmily.github.io/rsschool-cv/
