@@ -1,12 +1,160 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
-    
+    <div class="centered">
+        <!--"контент размещается в блоке, который горизонтально центрируется на странице"-->
+        <header>
+            <nav>
+                <ul>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#example">Example</a></li>
+                    <li><a href="#practice">Practice</a></li>
+                    <li><a href="#education">Education</a></li>
+                    <li><a href="#english">English</a></li>
+                </ul>
+            </nav>
+
+            <h1>Grigory
+                Milyukov
+                CV</h1>
+
+        </header>
+        <main>
+            <div class="contacts-foto">
+                <section class="contacts-foto__contacts">
+                    <h2>Contacts:</h2>
+                    <ul>
+                        <li>service: <a href="https://discord.com/login">Discord</a></li>
+                        <li>server: <a href="https://discord.gg/6B4VX6sJ">rs-school</a></li>
+                        <li>nickname: <strong>Grigory (@grigmily)</strong></li>
+                    </ul>
+                </section>
+                <img src="1240.jpg" alt="foto">
+            </div>
+            <div class="about" id="about">
+                <h2>About</h2>
+                <p>Goal is a certain speciality in IT.<br>
+                    Priority is logically structurred activity.<br>
+                    Minimalism as a strength.<br>
+                    Work experience in some testing tasks for a few companies and a lot of experiece of contributing to
+                    construction and production projects.</p>
+            </div>
+            <div class="skills" id="skills">
+                <h2>Skills</h2>
+                <p>
+                <ol>
+                    <li>MySQL
+                        <ul>
+                            <li>beginners book</li>
+                            <li>training to enter a marketplace company</li>
+                        </ul>
+                    </li>
+                    <li>Python
+                        <ul>
+                            <li>extended course</li>
+                            <li>beginner part of data science education program</li>
+                        </ul>
+                    </li>
+                    <li>JavaScript/HTML/CSS
+                        <ul>
+                            <li>video course</li>
+                            <li>half of course in JS+React online school</li>
+                        </ul>
+                    </li>
+                    <li>RUST
+                        <ul>
+                            <li>using docs</li>
+                            <li>trying test projects</li>
+                        </ul>
+                    </li>
+                </ol>
+                </p>
+            </div>
+            <div class="example" id="example">
+                <h2>Example</h2>
+                <p>
+                <h3>Task:</h3>
+                You probably know the "like" system from Facebook and other pages. People can "like" blog posts,
+                pictures or other items. We want to create the text that should be displayed next to such an item.
+
+                Implement the function which takes an array containing the names of people that like an item. It must
+                return the display text as shown in the examples:
+                <pre><code>
+[]                                <span class="hl-comment">-->  "no one likes this"</span>
+[<span class="hl-subst">"Peter"</span>]                         <span class="hl-comment">-->  "Peter likes this"</span>
+[<span class="hl-subst">"Jacob"</span>, <span class="hl-subst">"Alex"</span>]                 <span class="hl-comment">-->  "Jacob and Alex like this"</span>
+[<span class="hl-subst">"Max"</span>, <span class="hl-subst">"John"</span>, <span class="hl-subst">"Mark"</span>]           <span class="hl-comment">-->  "Max, John and Mark like this"</span>
+[<span class="hl-subst">"Alex"</span>, <span class="hl-subst">"Jacob"</span>, <span class="hl-subst">"Mark"</span>, <span class="hl-subst">"Max"</span>]  <span class="hl-comment">-->  "Alex, Jacob and 2 others like this"</span>
+</code></pre>
+
+<h3>Implementing function:</h3>
+<pre><code>
+<span class="hl-keyword">function</span> <span class="hl-title">likes</span>(<span class="hl-params">names</span>) {
+<span class="hl-comment">// TODO</span>
+    <span class="hl-keyword">switch</span> (<span class="hl-params">names.<span class="hl-title">length</span></span>) { 
+    <span class="hl-keyword">case</span> <span class="hl-index">0</span>: <span class="hl-keyword">return</span>(<span class="hl-subst">`no one likes this`</span>);
+    <span class="hl-keyword">case</span> <span class="hl-index">1</span>: <span class="hl-keyword">return</span>(<span class="hl-subst">`${<span class="hl-params">names[<span class="hl-index">0</span>]</span>} likes this`</span>);
+    <span class="hl-keyword">case</span> <span class="hl-index">2</span>: <span class="hl-keyword">return</span>(<span class="hl-subst">`${<span class="hl-params">names[<span class="hl-index">0</span>]</span>} and ${<span class="hl-params">names[<span class="hl-index">1</span>]</span>} like this`</span>);
+    <span class="hl-keyword">case</span> <span class="hl-index">3</span>: <span class="hl-keyword">return</span>(<span class="hl-subst">`${<span class="hl-params">names[<span class="hl-index">0</span>]</span>}, ${<span class="hl-params">names[<span class="hl-index">1</span>]</span>} and ${<span class="hl-params">names[<span class="hl-index">2</span>]</span>} like this`</span>);
+    <span class="hl-keyword">default</span>: <span class="hl-keyword">return</span>(<span class="hl-subst">`${<span class="hl-params">names[<span class="hl-index">0</span>]</span>}, ${<span class="hl-params">names[<span class="hl-index">1</span>]</span>} and ${<span class="hl-params">names.<span class="hl-title">length</span>-<span class="hl-index">2</span></span>} others like this`</span>);
+      }
+}
+</code></pre>
+                </p>
+            </div>
+            <div class="practice" id="practice">
+                <h2>Practice</h2>
+                <ul>
+                    <li>[livemaster.ru](https://www.livemaster.ru/ "Website «Fair of Masters»") - SQL and
+                        databases
+                        staging course for database administrator;</li>
+                    <li>[SAP](https://sapui5.hana.ondemand.com/ "Lead of ERP-systems market in Russia") -
+                        solving
+                        entrants tasks in python, JavaScript, oData;</li>
+                    <li> [ptmk](https://www.ptmk.ru/ "Business automation") - solving entrants tasks in
+                        python+mongodb;</li>
+                    <li>[amkor](http://www.amkoring.ru/ "JSC «Amkor Engineering»") - solving entrants tasks for
+                        industrial PLC.</li>
+                </ul>
+                <h3>Projects</h3>
+                <ul>
+                    <li> [CSP project](https://grigmily.github.io/ "Training for adaptive website").</li>
+                </ul>
+            </div>
+            <div class="education" id="education">
+                <h2>Education</h2>
+                <ul>
+                    <li>[beONmax](https://beonmax.com/ "beONmax") video courses;</li>
+                    <li>[Yandex.Practicum](https://practicum.yandex.ru/profile/data-scientist/ "Yandex.Practicum")
+                        data analysys school - data science course;</li>
+                    <li>[QAtester](https://qatester.ru/ "QAtester school") course;</li>
+                    <li>[RUST docs](https://www.rust-lang.org/learn "RUST docs") using.</li>
+                </ul>
+            </div>
+            <div class="english" id="english">
+                <h2>English</h2>
+                <ul>
+                    <li> DuoLingo >600 days;</li>
+                    <li> english docs.</li>
+                </ul>
+            </div>
+        </main>
+        <footer>
+            <a href="https://rs.school/js/"><img src="https://rs.school/images/rs_school_js.svg" alt="rs-school Front-End course" class="endlogo"></a>
+            <p><b>2022</b></p>
+        </footer>
+
+    </div>
 </body>
+
 </html>
