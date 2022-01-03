@@ -110,7 +110,7 @@ footer {
     padding-block-start: 1em;
     padding-block-end: 1em;
 }
-footer>a>img.rsschool-logo{
+img#rsschool-logo{
     max-height: 60px;
     height: auto;
     width: 8em;
@@ -119,21 +119,19 @@ footer>a>img.rsschool-logo{
   margin-right: auto;
   
 }
-.github-logo {
+img#github-logo {
     max-height: 1.5em;
     height: auto;
     width: auto;
-    display: inline-block;
+    display: block;
   margin-left: auto;
   margin-right: auto;
-  vertical-align: top;
-
 }
-.github-link{
+/* .github-link{
     text-decoration: none;
     color: black;
     font-size: 0.8em;
-}
+} */
 footer>p{
     text-align: center;
 }
