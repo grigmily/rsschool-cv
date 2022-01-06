@@ -80,6 +80,15 @@ nav>ul{
     }
 }
 
+@media (max-width: 200px){
+    main{
+        font-size: small;
+    }
+    h1, h2, h3{
+        font-size: small;
+    }
+}
+
 nav>ul>li{
     display: inline;
     font-family: 'Kanit', sans-serif;
@@ -92,7 +101,9 @@ h1 {
     text-align: center;
     font-family: 'Kanit', sans-serif;
     font-weight: 800;
-    text-shadow: #FC0 1px 0 10px;;
+    text-shadow: #FC0 1px 0 10px;
+    background-color: darkslateblue;
+    margin-block-end: 0;
 }
 
 .contacts-foto{
@@ -103,10 +114,7 @@ h1 {
     display:inline-block;
 }
 
-h1{
-    background-color: darkslateblue;
-    margin-block-end: 0;
-}
+
 main{
     background-color: rgb(97, 97, 97);
     font-family: system-ui;
