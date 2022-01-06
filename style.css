@@ -154,6 +154,10 @@ code {
     font-family: Consolas, Monaco, monospace;
     overflow-x: auto;
    }
+@media (max-width: 342px){
+    
+}
+
 
 .hl-comment {
     color:#b6b18b
