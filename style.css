@@ -80,12 +80,15 @@ nav>ul{
     }
 }
 
-@media (max-width: 200px){
+@media (max-width: 280px){
     main{
         font-size: small;
     }
     h1, h2, h3{
         font-size: small;
+    }
+    main>div>ul, main>div>ol{
+        padding-inline-start: 10%;
     }
 }
 
