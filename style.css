@@ -18,11 +18,10 @@
     main>div{
         margin: 2.5em auto 3em;
         padding: auto;
+    }
+
 }
 
-
-    
-}
 .centered{
     margin-top: 50px;
     margin-left: auto;
@@ -204,4 +203,96 @@ img#github-logo {
 
 footer>p{
     text-align: center;
+}
+
+/* Telegram button */
+
+.telegram-button, .whatsapp-button {
+    position: relative;
+    right: 0px;
+    bottom: -40px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 55px; /*ширина кнопки*/
+    height: 55px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 53px; /*центровка иконки в кнопке*/
+    font-size: 35px; /*размер иконки*/
+    z-index: 9999;
+}
+.telegram-button {
+    background: #0088cc; /*цвет кнопки*/
+}
+.whatsapp-button {
+    right: -115px;
+    top: -15px;
+    background: #25D366; /*цвет кнопки*/
+}
+
+.telegram-button a, .whatsapp-button a {
+    color: #fff;
+}
+.telegram-button:before,
+.telegram-button:after, 
+.whatsapp-button:before,
+.whatsapp-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%; 
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+
+.telegram-button:before,
+.telegram-button:after {
+    border: 1px solid #0088cc; /*цвет анимированных волн от кнопки*/
+}
+
+.whatsapp-button:before,
+.whatsapp-button:after {
+    border: 1px solid #25D366; /*цвет анимированных волн от кнопки*/
+}
+ 
+.telegram-button:after, .whatsapp-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px){
+
+    .whatsapp-button {  
+        position: fixed;
+        top: 130px;
+        left: 20%;
+    }
+    .telegram-button {  
+        position: fixed;
+        top: 230px;
+        left: 20%;
+    }
 }
