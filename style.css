@@ -1,0 +1,298 @@
+@charset "UTF-8";
+
+@font-face{
+    font-family: 'Kanit';
+    src: url('Kanit-Black.ttf') format('ttf')
+
+}
+
+
+@media (min-width: 769px){
+    main>div{
+        margin: 2.5em 10em 3em;
+        padding: 1em;
+    }
+}
+
+@media (max-width: 768px){
+    main>div{
+        margin: 2.5em auto 3em;
+        padding: auto;
+    }
+
+}
+
+.centered{
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+nav{
+    position:fixed;
+    top: 0px;
+    width: 100%;
+    background:coral;
+    z-index: 1;
+}
+
+:target::before {
+    content: "";
+    display: block;
+    height: 50px;
+  } 
+
+  @media (max-width: 420px){
+    nav>ul>li{
+        font-size: small;
+    }
+    code {
+        font-size: small;
+    }
+}
+@media (max-width: 342px){
+    nav>ul>li{
+        font-size: x-small;
+    }
+    code {
+        font-size: x-small;
+    }
+    
+}
+
+@media (max-width: 292px){
+    nav>ul>li{
+        font-size: xx-small;
+    }
+    code {
+        font-size: xx-small;
+    }
+}
+nav>ul{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    margin-inline-end: 1.5em;
+}
+
+@media (max-width: 280px){
+    main{
+        font-size: small;
+    }
+    h1, h2, h3{
+        font-size: small;
+    }
+    main>div>ul, main>div>ol{
+        padding-inline-start: 10%;
+    }
+} 
+
+@media (max-width: 270px){
+    nav>ul{
+        justify-content: space-between;
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 240px){
+    nav>ul{
+        display:inline;
+        padding-left: 5%;
+    }
+}
+
+nav>ul>li{
+    display: inline;
+    font-family: 'Kanit', sans-serif;
+    font-weight: bold;
+}
+ 
+
+
+h1 {
+    text-align: center;
+    font-family: 'Kanit', sans-serif;
+    font-weight: 800;
+    text-shadow: #FC0 1px 0 10px;
+    background-color: darkslateblue;
+    margin-block-end: 0;
+}
+
+.contacts-foto{
+    display:flex;
+    justify-content: space-evenly;
+}
+.contacts-foto>.contacts-foto__contacts{
+    display:inline-block;
+}
+
+
+main{
+    background-color: rgb(97, 97, 97);
+    font-family: system-ui;
+}
+main>div:first-of-type{
+    margin-top: auto;
+}
+
+main>div:nth-of-type(even){
+    background: #c4fab5 ;
+}
+main>div:nth-of-type(odd){
+    background: #91fc74 ;
+}
+main>div:last-of-type{
+    margin-bottom: auto;
+}
+/* Code block */
+code {
+    background:#1c1d21;
+    color:#c0c5ce;
+    display: block;
+    padding: 1em;
+    font-family: Consolas, Monaco, monospace;
+    overflow-x: auto;
+   }
+@media (max-width: 342px){
+    
+}
+
+
+.hl-comment {
+    color:#b6b18b
+   }
+.hl-params{
+    color:#e7ce56
+   }
+.hl-index{
+    color: orange;
+} 
+.hl-subst {
+    color:#4fb4d7
+   }
+.hl-title {
+    color:#78bb65
+   }
+.hl-keyword {
+    color:#b45ea4
+   }
+
+   /* Footer */
+footer {
+    background-color: darkslateblue;
+    padding-block-start: 1em;
+    padding-block-end: 1em;
+}
+img#rsschool-logo{
+    max-height: 60px;
+    height: auto;
+    width: 8em;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+img#github-logo {
+    max-height: 1.5em;
+    height: auto;
+    width: auto;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+footer>p{
+    text-align: center;
+}
+
+/* Telegram button */
+
+.telegram-button, .whatsapp-button {
+    position: relative;
+    right: 0px;
+    bottom: -40px;
+    transform: translate(-50%, -50%);
+    border-radius: 50%;
+    width: 55px; /*ширина кнопки*/
+    height: 55px; /*высота кнопки*/
+    color: #fff;
+    text-align: center;
+    line-height: 53px; /*центровка иконки в кнопке*/
+    font-size: 35px; /*размер иконки*/
+    z-index: 9999;
+}
+.telegram-button {
+    background: #0088cc; /*цвет кнопки*/
+}
+.whatsapp-button {
+    right: -115px;
+    top: -15px;
+    background: #25D366; /*цвет кнопки*/
+}
+
+.telegram-button a, .whatsapp-button a {
+    color: #fff;
+}
+.telegram-button:before,
+.telegram-button:after, 
+.whatsapp-button:before,
+.whatsapp-button:after {
+    content: " ";
+    display: block;
+    position: absolute;
+    border: 50%; 
+    left: -20px;
+    right: -20px;
+    top: -20px;
+    bottom: -20px;
+    border-radius: 50%;
+    animation: animate 1.5s linear infinite;
+    opacity: 0;
+    backface-visibility: hidden; 
+}
+
+.telegram-button:before,
+.telegram-button:after {
+    border: 1px solid #0088cc; /*цвет анимированных волн от кнопки*/
+}
+
+.whatsapp-button:before,
+.whatsapp-button:after {
+    border: 1px solid #25D366; /*цвет анимированных волн от кнопки*/
+}
+ 
+.telegram-button:after, .whatsapp-button:after{
+    animation-delay: .5s;
+}
+ 
+@keyframes animate
+{
+    0%
+    {
+        transform: scale(0.5);
+        opacity: 0;
+    }
+    50%
+    {
+        opacity: 1;
+    }
+    100%
+    {
+        transform: scale(1.2);
+        opacity: 0;
+    }
+}
+
+@media (max-width: 768px){
+
+    .whatsapp-button {  
+        position: fixed;
+        top: 130px;
+        left: 20%;
+    }
+    .telegram-button {  
+        position: fixed;
+        top: 230px;
+        left: 20%;
+    }
+}
